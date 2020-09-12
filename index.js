@@ -63,6 +63,11 @@ function init() {
             },
             {
                 type: "input",
+                message: "What is your Github username?",
+                name: "Username"
+            },
+            {
+                type: "input",
                 message: "How should we contact you with updates on questions?",
                 name: "Questions"
             }
@@ -74,7 +79,7 @@ function init() {
         });
 
 
-}
+};
 
 // function call to initialize program
 init();

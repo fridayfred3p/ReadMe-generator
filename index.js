@@ -2,10 +2,6 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// array of questions for user
-const questions = [
-
-];
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -29,18 +25,18 @@ function init() {
             },
             {
                 type: "input",
-                message: "What is the description of the README",
+                message: "What is an overview of the project",
+                name: "Overview"
+            },
+            {
+                type: "input",
+                message: "Give a detailed description of the README",
                 name: "Description"
             },
             {
                 type: "input",
-                message: "What is the table of contents of the README",
-                name: "TableofContents"
-            },
-            {
-                type: "input",
-                message: "What are the installtion instructions of the README",
-                name: "Installtion"
+                message: "What are the installation instructions of the README",
+                name: "Installation"
             },
             {
                 type: "input",

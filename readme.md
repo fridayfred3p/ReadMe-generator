@@ -38,4 +38,9 @@
   Please contact me at:  fridayfred3p@gmail.com
 
   Also please be sure to visit fridayfred3p to view my Github profile and see some of my projects!
-  
+
+ ## Project link:
+
+ [link to project](https://drive.google.com/file/d/1d5jhA66-TsRdN8mlMHH5SVnqBQtbsRb_/view)
+
+ [link to github](https://github.com/fridayfred3p/ReadMe-generator)

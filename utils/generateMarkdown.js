@@ -5,15 +5,15 @@ function generateMarkdown(data) {
   
   ## Overview: ${data.Overview}\n
 
-  ##Table of Contents
+  ## Table of Contents
   --------------------
-  1. Installation Instructions
-  2. Detailed Description
-  3. Usuage 
-  4. Licencse 
-  5. Contributing 
-  6. Test 
-  7. Questions \n
+  1. [Installation Instructions](#Installation-Instructions)
+  2. [Detailed Description](#Detailed-Description)
+  3. [Usuage](#Usuage)
+  4. [Licencse](#License)
+  5. [Contributing](#Contributing) 
+  6. [Test](#Test) 
+  7. [Contact Information](#Contact-Information) \n
 
   ## Detailed Description: ${data.Description}\n
   

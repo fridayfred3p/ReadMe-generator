@@ -20,7 +20,7 @@ function init() {
         .prompt([
             {
                 type: "input",
-                message: "What is the Title of the README",
+                message: "What is the Title of the project",
                 name: "Title"
             },
             {
@@ -30,22 +30,22 @@ function init() {
             },
             {
                 type: "input",
-                message: "Give a detailed description of the README",
+                message: "Give a detailed description of the project",
                 name: "Description"
             },
             {
                 type: "input",
-                message: "What are the installation instructions of the README",
+                message: "What are the installation instructions of the project",
                 name: "Installation"
             },
             {
                 type: "input",
-                message: "What is the proper usuage of the README",
+                message: "What is the proper usuage of the project",
                 name: "Usuage"
             },
             {
                 type: "list",
-                message: "What is the license of the README",
+                message: "What is the license of the project",
                 name: "License",
                 choices: [
                     "MIT", "Apache", "Mozilla", "Boost Software"
@@ -53,12 +53,12 @@ function init() {
             },
             {
                 type: "input",
-                message: "Who are the contributors of the README",
+                message: "Who are the contributors of the project",
                 name: "Contribution"
             },
             {
                 type: "input",
-                message: "What is the Test of the README",
+                message: "What is the Test of the project",
                 name: "Test"
             },
             {

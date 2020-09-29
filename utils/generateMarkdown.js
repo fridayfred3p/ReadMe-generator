@@ -21,9 +21,9 @@ function generateMarkdown(data) {
 
   ## Usuage: ${data.Usuage}\n
   
-  ## Licence: ${data.Licences}\n
+  ## Licence: ${data.License}\n
 
-  ## Contributing: ${data.Contributing}\n
+  ## Contributing: ${data.Contribution}\n
 
   ## Test: ${data.Test}\n
 
